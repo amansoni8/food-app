@@ -23,6 +23,8 @@ app.use("/api/v1/test", require('./routes/testRoutes'))
 app.use('/api/v1/auth', require('./routes/authRoutes'))
 app.use('/api/v1/user', require('./routes/userRoute'))
 app.use("/api/v1/resturant", require("./routes/resturantRoutes"));
+app.use("/api/v1/category", require("./routes/categoryRoutes"));
+app.use("/api/v1/food",require('./routes/foodRoutes'))
 
 //rout 
 app.get('/', (req,res) => {
